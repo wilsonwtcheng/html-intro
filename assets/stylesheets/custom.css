@@ -1,0 +1,73 @@
+
+
+h1 {
+	color: black;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+/*the # is an ID selector. CAN ONLY BE USED ONCE?*/
+
+#current-weather {
+	color:orange;
+}
+
+#hello-world {
+	color: yellow;
+	border: solid green;
+	font-size: 30px;
+	padding: 20px ; 
+	margin: 10px;
+}
+/*this is a class selector. all stuff of this class will get these styles*/
+.classSel {
+	background-color: red;
+	color: white;
+	}
+
+.classSel2 {
+	background-color: yellow;
+	color: white;
+	}
+
+.mammal {
+	background-color: lavender;
+	font-weight: bold;
+}
+
+.bird {
+	background-color: lightGray;
+	font-style: italic;
+}
+
+.fish {
+	background-color: lightYellow;
+	text-decoration: underline;
+}
+
+/*Grouping Selectors*/
+
+h3, ul, ol {
+    text-align: left;
+    color: grey;
+}
+
+#mouse { color: grey;}
+
+#canary { color: orangeRed;}
+
+#penguin{ color: black;}
+
+#salmon{ color: salmon;}
+
+#cat{ color: sienna;}
+
+#goldfish{ color: gold;}
+
+#dog{ color: tan;}
+
+#sheep{ color: steelBlue;}
+
+#parakeet{ color: lime;}
+
+#tuna { color: purple;}
